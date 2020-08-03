@@ -6,12 +6,12 @@ function StringDecode($file,$string='')
 	
 	if(empty($string))
 	{
-		print "empty\r\n";
+		//print "empty\r\n";
 $style=file_get_contents(trim($file));
 	}
 	else
 	{
-		print "string\r\n";
+		//print "string\r\n";
 		$style=$string;
 	}
 	
